@@ -1,0 +1,120 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+Header {
+  border-bottom: 1px solid seashell;
+}
+
+
+div {
+  display: block;
+}
+#Logo {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.Links {
+  padding-right: 40px;
+  float: right;
+  color: white;
+}
+
+
+
+.Our-Mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: auto;
+}
+
+.Mission {
+
+  margin: auto;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+.Tea-of-the-Month {
+  text-align: center;
+}
+
+.Pictures {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 532px;
+  margin: auto;
+}
+
+#Fall,
+img {
+  height: 200px;
+  width: 300px;
+}
+
+#Spiced,
+img {
+  height: 200px;
+  width: 300px;
+}
+
+
+#Seasonal,
+img {
+  height: 200px;
+  width: 300px;
+}
+
+#Myrtle {
+  height: 200px;
+  width: 300px;
+}
+
+#Bedford {
+  height: 200px;
+  width: 300px;
+}
+
+
+.items {
+  padding: 5px;
+}
+
+#Location {
+  text-align: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+}
+
+.Location-boxes {
+  justify-content: center;
+  display: flex;
+}
+
+.Menu {
+ margin: 50px;
+ background-color: black;
+ height: 300px;
+ width: 300px;
+ opacity: 1;
+}
+
+#Contact {
+  text-align: center;
+  margin-left: 20px;
+}
